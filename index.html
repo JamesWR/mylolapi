@@ -1,0 +1,19 @@
+<html>
+<head>
+<body>
+<link rel="stylesheet" type="text/css" href="./items.css" rel="Stylesheet" />
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="./util.js"></script>
+<script type="text/javascript" src="./items.js"></script>
+<script type="text/javascript" src="./summoners.js"></script>
+<script type="text/javascript" src="./games.js"></script>
+<script type="text/javascript" src="./champs.js"></script>
+<div>
+	<button type="button" onclick="ITEMS.updateData();CHAMPS.updateData();SUMMONERS.updateData();">update data</button>
+	<button type="button" onclick="GAMES.getGamesData(SUMMONERS.getSummonerData());">update games</button>
+	<input type="text" placeholder="Search" class="itemSearch"></input>
+	<div id="itemsDiv"></div>
+</div>
+</body>
+</head>
+</html>

@@ -1,0 +1,55 @@
+.itemicon {
+	height: 65px;
+	width: 65px;
+    background-repeat: no-repeat;
+    float: left;
+}
+.itemicon:hover {
+	cursor: help;
+	position: relative;
+}
+.itemicon span {
+	pointer-events:none;
+	display: none;
+}
+.itemicon:hover span {
+    border: #c0c0c0 1px dotted;
+    padding: 5px 20px 5px 5px;
+    background: white;
+    display: block;
+    z-index: 100;
+    left: 0px;
+    margin: 10px;
+    width: 250px;
+    position: absolute;
+    top: 10px;
+    text-decoration: none
+}
+
+.champicon {
+	height: 120px;
+	width: 120px;
+    background-repeat: no-repeat;
+    float: left;
+}
+.champicon:hover {
+	cursor: help;
+	position: relative;
+}
+.champicon span {
+	pointer-events:none;
+	display: none;
+}
+.champicon:hover span {
+    border: #c0c0c0 1px dotted;
+    padding: 5px 20px 5px 5px;
+    background: white;
+    display: block;
+    z-index: 100;
+    left: 0px;
+    margin: 10px;
+    width: 250px;
+    position: absolute;
+    top: 10px;
+    text-decoration: none
+}
